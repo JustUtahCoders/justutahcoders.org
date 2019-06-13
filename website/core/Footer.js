@@ -30,13 +30,14 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>About</h5>
-            <a>Our Mission</a>
-            <a>Our Services</a>
-            <a>Our Impact</a>
-            <a>Our Future</a>
+            <a href={this.pageUrl('mission.html', this.props.language)}>Our Mission</a>
+            <a href={this.pageUrl('services.html', this.props.language)}>Our Services</a>
+            <a href={this.pageUrl('impact.html', this.props.language)}>Our Impact</a>
+            <a href={this.pageUrl('future.html', this.props.language)}>Our Future</a>
           </div>
           <div>
             <h5>Community</h5>
+            <a>Volunteer with Us</a>
             <a>Sponsers</a>
             <a>Facebook</a>
             <a>Twitter</a>
@@ -46,6 +47,7 @@ class Footer extends React.Component {
             <h5>More</h5>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
             <a href="https://github.com/JustUtahCoders">GitHub</a>
+            <a>Careers</a>
           </div>
         </section>
 
