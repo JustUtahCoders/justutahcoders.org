@@ -11,7 +11,7 @@ const siteConfig = {
   headerLinks: [
   ],
   users,
-  headerIcon: 'img/logo.png',
+  headerIcon: 'img/logo.svg',
   footerIcon: 'img/favicon.ico',
   favicon: 'img/favicon.ico',
   colors: {

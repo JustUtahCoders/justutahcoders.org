@@ -3,7 +3,7 @@
 }
 
 body {
-    background: linear-gradient(rgba(19, 142, 158, 0.308), rgba(5, 105, 97, 0.5)), url(https://source.unsplash.com/iG0b7gp-0Q4/);
+    background: linear-gradient(rgba(0, 225, 255, 0.582), rgba(9, 32, 235, 0.466)), url(https://source.unsplash.com/iG0b7gp-0Q4/);
     background-position: center, center;
     background-repeat: repeat, no-repeat;
     background-size: cover, cover;
@@ -77,11 +77,7 @@ header {
             drop-shadow(rgba(0, 0, 0, 0.2) 5px 5px 10px);
 }
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
-    body {
-        background: linear-gradient(rgba(19, 142, 158, 0.5), rgba(5, 105, 97, 0.6)), url(https://source.unsplash.com/iG0b7gp-0Q4/);
-    }
-    
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {    
     header {
         height: 2.5rem;
         display: flex;

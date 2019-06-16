@@ -6,8 +6,8 @@ class Services extends React.Component {
     render() {
         const siteConfig = this.props.config
         return (
-            <div>
-                {this.props.label}
+            <div className="services-page-container">
+                
             </div>
         )
     }
