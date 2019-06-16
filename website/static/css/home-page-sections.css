@@ -7,10 +7,11 @@
 }
 
 .purpose-statement > h2 {
-    font-size: 4rem;
+    font-size: 3.15rem;
     line-height: 4.5rem;
     text-align: center;
-    margin: 2rem 1rem 2rem 1rem;
+    margin: 2rem 1.5rem 2rem 1rem;
+    padding: 0 0.65rem 0 0;
 }
 
 .purpose-statement-image-container {
@@ -18,7 +19,12 @@
     grid-template-columns: 32% 28.5% 39.5%;
     grid-template-rows: repeat(3, auto);
 
-    margin: 2rem 0 0 -12rem;
+    float: right;
+    margin: 2rem 0 0 -12.5rem;
+
+    color: transparent;
+    transition-property: color;
+    transition-duration: 1s;
 }
 
 .purpose-statement > .purpose-statement-image-container > img {
@@ -30,7 +36,7 @@
     filter: drop-shadow(rgba(255, 255, 255, 0.25) 3px 3px 5px);
 }
 
-.purpose-statement > .purpose-statement-image-container > h3 {
+.purpose-statement > .purpose-statement-image-container > p {
     grid-column: 2;
     grid-row: 2;
     z-index: 2;
@@ -38,7 +44,13 @@
     font-size: 1.75rem;
     text-align: center;
 
+    margin: 2rem 0 0 0;
     padding: 0 1rem 0 1rem;
+
+}
+
+.purpose-statement > .purpose-statement-image-container:hover {
+    color: white;
 }
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 736px) {
