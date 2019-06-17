@@ -28,14 +28,14 @@ class Footer extends React.Component {
               />
             )}
           </a>
-          <div>
+          <div className="subsection">
             <h5>About</h5>
             <a href={this.pageUrl('mission.html', this.props.language)}>Our Mission</a>
             <a href={this.pageUrl('services.html', this.props.language)}>Our Services</a>
             <a href={this.pageUrl('impact.html', this.props.language)}>Our Impact</a>
             <a href={this.pageUrl('future.html', this.props.language)}>Our Future</a>
           </div>
-          <div>
+          <div className="subsection">
             <h5>Community</h5>
             <a>Volunteer with Us</a>
             <a>Sponsers</a>
@@ -43,7 +43,7 @@ class Footer extends React.Component {
             <a>Twitter</a>
             <a>Instagram</a>
           </div>
-          <div>
+          <div className="subsection">
             <h5>More</h5>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
             <a href="https://github.com/JustUtahCoders">GitHub</a>

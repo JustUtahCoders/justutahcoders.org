@@ -5,10 +5,10 @@ const CompLibrary = require('../../core/CompLibrary.js')
 class Index extends React.Component {
   render() {
     return (
-      <div>
+      <div className="home-page">
 
         <section className="intro-section phone-lean">
-          <h2>Every industry needs software developers. Non-profits and community organizations are no exception.</h2>
+          <h2>Every industry needs software developers. Community organizations and non-profits are no exception.</h2>
           <div className="intro-scene phone-lean-scene">
             <img src="/img/mobile-application-lean.svg" alt="stylized man leaning on giant mobile phone"/>
             <p id="phone-message">What can we make for you?</p>
@@ -27,9 +27,18 @@ class Index extends React.Component {
           <h2>Experience a dev team that learns your process before beginning theirs</h2>
           <div className="intro-scene designing-scene">
             <img src="/img/design-process.svg" alt="ux designer"/>
-            <p>Design built around use</p>
+            <p>Designed around use</p>
           </div>
         </section>
+
+        <section className="intro-section building">
+          <div className="intro-scene building-scene">
+            <img src="/img/mobile-building.svg" alt="man stuffing files into oversized folder"/>
+            <p>Let us help you grow</p>
+          </div>
+          <h2>You pull together for the community, let the dev community pull together for you.</h2>
+        </section>
+
       </div>
     )
   }

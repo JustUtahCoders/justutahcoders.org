@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     margin: 0;
 }
 
@@ -7,62 +8,43 @@ body {
     background-position: center, center;
     background-repeat: repeat, no-repeat;
     background-size: cover, cover;
-
     font-size: 10pt;
-}
-
-header {  
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-
-    height: 3rem;
-
-    align-items: center;
 }
 
 .fixedHeaderContainer {
     background-color: rgba(31, 37, 37, 0.9);
-}
-
-.fixedHeaderContainer header img {
     position: fixed;
-    left: 2rem;
-
-    height: auto;
-    
-    padding: 5rem 0 1rem 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 3.5rem;
+    filter: drop-shadow(rgba(0, 0, 0, 0.5) 0 3px 1px);
 }
 
-.logo {
-    width: 8rem;
-    height: 8rem;
+.fixedHeaderContainer .headerWrapper .logo {
+    height: 6rem;
+    width: 6rem;
+    margin: 1rem 0 -3rem -4rem;
     filter: drop-shadow(rgba(255, 255, 255, 0.15) 3px 3px 3px)
             drop-shadow(rgba(0, 0, 0, 0.2) 5px 5px 10px);
 }
 
-.headerTitleWithLogo {
-    color: rgb(132, 186, 196);
-
-    font-weight: 200;
-
-    padding: 0 0 0 12rem;
-}
-
-.wrapper {
-    margin: 0;
-    padding: 0;
+.fixedHeaderContainer .headerWrapper .headerTitleWithLogo {
+    margin: 0.5rem 0 0 1rem;
+    font-weight: 300;
 }
 
 .nav-footer {
-    background-color: rgba(31, 37, 37, 0.9);
+    position: absolute;
+    left: 0;
+    right: -1.2rem;
+    bottom: 0;
 }
 
 .nav-footer > .sitemap a,
 .nav-footer > .sitemap h5,
 .nav-footer > .copyright {
-    color: rgb(132, 186, 196);
+    color: rgb(188, 232, 240);
 }
 
 .nav-footer > .sitemap h5 {
@@ -71,55 +53,94 @@ header {
 }
 
 .nav-footer img {
-    filter: brightness(220%)
-            hue-rotate(40deg)
+    filter: brightness(250%)
             drop-shadow(rgba(255, 255, 255, 0.125) 3px 3px 3px)
             drop-shadow(rgba(0, 0, 0, 0.2) 5px 5px 10px);
 }
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {    
-    header {
-        height: 2.5rem;
-        display: flex;
-        align-items: flext-start;
+.nav-footer .sitemap {
+    /* margin: 0; */
+    max-width: 90vw;
+}
+
+/* TABLET */
+@media only screen and (min-device-width: 736px) and (max-device-width: 1025px) {
+    .fixedHeaderContainer {
+        height: 5rem;
     }
-    
-    .fixedHeaderContainer header img {
-        height: auto;
-        padding: 4.5rem 0 1rem 0;
+
+    .fixedHeaderContainer .headerWrapper .logo {
+        height: 8rem;
+        width: 8rem;
+        margin: 1rem 0 -6rem 0;
     }
-    
-    .logo {
-        width: 6rem;
-        height: 6rem;
-        filter: drop-shadow(rgba(255, 255, 255, 0.35) 1px 1px 3px)
-                drop-shadow(rgba(0, 0, 0, 0.75) 2px 2px 2px);
+
+    .fixedHeaderContainer .headerWrapper .headerTitleWithLogo {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 2.75rem 0 0 5rem;
     }
-    
-    .headerTitleWithLogo {
-        color: rgb(132, 186, 196);
-        font-weight: 200;
-    }
-    
+
     .nav-footer {
-        background-color: rgba(31, 37, 37, 0.9);
+        width: 102vw;
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 2rem;
     }
-    
+
+    .sitemap {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
     .nav-footer > .sitemap a,
     .nav-footer > .sitemap h5,
     .nav-footer > .copyright {
-        color: rgb(132, 186, 196);
+        font-size: 1.05rem;
     }
-    
-    .nav-footer > .sitemap h5 {
-        font-weight: 900;
-        text-transform: uppercase;
+
+    .nav-footer div {
+        margin: 0 0 0 3.5rem;
     }
-    
+}
+
+/* MOBILE */
+@media only screen and (max-device-width: 480px) {
+    .fixedHeaderContainer {
+        height: 3rem;
+    }
+
+    .fixedHeaderContainer .headerWrapper .logo {
+        height: 5rem;
+        width: 5rem;
+        margin: 0 0 -3.25rem -0.75rem;
+    }
+
+    .fixedHeaderContainer .headerWrapper .headerTitleWithLogo {
+        font-size: 1.05rem;
+        text-align: center;
+        margin: 0.5rem 0 0 0.6rem;
+        display: inline !important;
+    }
+
+    .nav-footer .sitemap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .nav-footer > .sitemap > .nav-home {
+        height: 0;
+        width: 0;
+    }
+
     .nav-footer img {
-        filter: brightness(220%)
-                hue-rotate(40deg)
-                drop-shadow(rgba(255, 255, 255, 0.125) 3px 3px 3px)
-                drop-shadow(rgba(0, 0, 0, 0.2) 5px 5px 10px);
+        height: 0;
+        width: 0;
+        display: none;
     }
 }
