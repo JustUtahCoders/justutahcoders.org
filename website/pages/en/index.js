@@ -34,7 +34,7 @@ class Index extends React.Component {
           <p>Every business and organization is unique, and while big pre-made data solution services have a lot of features you'll find yourself paying for a lot of features you just don't need and still missing key features you do need.</p>
           <p>And while sometimes those same companies will offer a discounted rate or free services for your cause, there is often a much larger price tag attached, your client's data. That's just not right.</p>
           <p>We believe that businesses and organizations designed to help the community should have access to affordable software that meets all of their needs, and doesn't ask for client data in return.</p>
-          <button>Learn more about our customized services</button>
+          <button>Learn more about our services</button>
         </section>
 
         <section className="intro-section designing">
@@ -50,7 +50,7 @@ class Index extends React.Component {
           <p>It's too important to stop at the what of a problem and just dive in. We listen and work with you to find out the why.</p>
           <p>We understand that your time, funding, and workforce are all limited resources, and vow not to waste them.</p>
           <p>To accomplish this we make sure that what we make for you reduces processing time, intuitively automates repeat processes for you, and can be used by any volunteer with minimal training going forward.</p>
-          <button>Learn more about our process and software development</button>
+          <button>Learn more about our process and projects</button>
         </section>
 
         <section className="intro-section building">
