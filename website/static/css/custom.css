@@ -35,9 +35,9 @@ body {
 }
 
 .nav-footer {
-    position: absolute;
+    position: relative;
     left: 0;
-    right: -1.2rem;
+    right: 0;
     bottom: 0;
 }
 
@@ -59,7 +59,6 @@ body {
 }
 
 .nav-footer .sitemap {
-    /* margin: 0; */
     max-width: 90vw;
 }
 
