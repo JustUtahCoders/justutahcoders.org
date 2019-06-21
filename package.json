@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "datafire": "^2.26.2"
+  }
+}

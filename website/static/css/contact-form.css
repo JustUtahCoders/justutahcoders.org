@@ -1,0 +1,66 @@
+.contact-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 3rem 0 3rem 0;
+}
+
+.contact-us-container > .blurb {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+    max-width: 35rem;
+}
+
+.contact-us-container > .blurb > h2 {
+    font-size: 5rem;
+}
+
+.contact-us-container > .blurb > p {
+    font-size: 2rem;
+}
+
+.contact-us-container > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 25px 50px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.contact-us-container > form > input,
+.contact-us-container > form > select,
+.contact-us-container > form > textarea {
+    margin: 0 0 1rem 0;
+    font-size: 1rem;
+    padding: 0.25rem 0.3rem;
+    max-width: 25rem;
+    background-color: rgb(234, 248, 250);
+    box-shadow: inset rgba(0, 0, 0, 0.247) 1px 1px 1px;
+}
+
+.contact-us-container > form > p {
+    color: white;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.contact-us-container > form > button {
+    width: 25rem;
+    align-self: center;
+    padding: 1rem 2rem;
+    background: rgba(39, 82, 199, 0.35);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 3px 3px 1px,
+                rgba(0, 0, 0, 0.25) 0px 5px 10px,
+                inset rgba(255, 255, 255, 0.35) 1px 1px 5px;
+    font-size: 1.05rem;
+    margin-top: 1rem;
+}

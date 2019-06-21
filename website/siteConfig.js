@@ -9,6 +9,10 @@ const siteConfig = {
   projectName: 'justutahcoders',
   organizationName: 'JustUtahCoders',
   headerLinks: [
+    {
+      page: 'contact-us',
+      label: 'Contact Us'
+    }
   ],
   users,
   headerIcon: 'img/logo.svg',
