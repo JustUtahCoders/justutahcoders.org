@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "datafire": "^2.26.2"
+    "@reach/router": "^1.2.1",
+    "react-transition-group": "^4.2.0"
   }
 }
