@@ -7,6 +7,10 @@ body {
     color: #ADADAD;
 }
 
+a {
+    text-decoration: none;
+}
+
 .app-container {
     min-height: 100vh;
     width: 100vw;
@@ -28,14 +32,13 @@ header {
     border-bottom: #1E1E1E 1px solid;
 }
 
-header > .header-logo {
+header > a > .header-logo {
     margin: 1vh 0 1vh 0;
     height: 8vh;
     width: calc(11.75vh);
     background-image: url('../images/color-logo.svg');
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 nav {
