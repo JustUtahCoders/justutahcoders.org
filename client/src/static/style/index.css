@@ -41,15 +41,6 @@ header > a > .header-logo {
     background-size: cover;
 }
 
-nav {
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    padding: 15vh calc(2vh) 1vh calc(2vh);
-    background-color: #333333;
-}
-
 main {
     display: flex;
     flex-direction: column;
