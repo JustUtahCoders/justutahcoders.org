@@ -1,6 +1,6 @@
 footer {
-    position: unset;
-    bottom: 0;
+    position: absolute;
+    /* bottom: 0; */
     left: 0;
     right: 0;
     z-index: 2;
@@ -52,7 +52,6 @@ footer {
         align-items: flex-start;
         justify-content: flex-start;
         padding: 10vh 0 10vh calc(18vh);
-        width: 100%;
     }
 
     .sections-container > section {

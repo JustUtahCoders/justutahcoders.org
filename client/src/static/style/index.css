@@ -8,6 +8,9 @@
 body {
     font-size: 10pt;
     color: #ADADAD;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 a {
