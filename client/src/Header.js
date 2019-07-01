@@ -56,7 +56,7 @@ function NavMobile(props) {
 function NavMobileDropdown(props) {
     return (
         <div 
-            className={!props.isOpen ? "drop-menu" : "drop-menu is-closed"}
+            className={props.isOpen ? "drop-menu" : "drop-menu is-closed"}
             onClick={props.handleMenuToggle}
         >
             {mapNavData}
@@ -72,7 +72,7 @@ const Header = () => {
     }
 
     const handdleCloseMenu = () => {
-        setIsOpen(true)
+        setIsOpen(false)
     }
 
     return (
