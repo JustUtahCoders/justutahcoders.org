@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
 * {
+    font-family: 'Inconsolata', monospace;
     margin: 0;
 }
 
@@ -18,27 +21,6 @@ a {
     background-size: 40%, cover;
     background-position: center, center;
     background-repeat: no-repeat, no-repeat;
-}
-
-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 2;
-    padding: 1vh calc(2vh) 1vh calc(2vh);
-    height: 10vh;
-    background-color: #333333;
-    border-bottom: #1E1E1E 1px solid;
-}
-
-header > a > .header-logo {
-    margin: 1vh 0 1vh 0;
-    height: 8vh;
-    width: calc(11.75vh);
-    background-image: url('../images/color-logo.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 main {

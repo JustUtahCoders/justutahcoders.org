@@ -11,7 +11,7 @@ export default function App() {
     return (
         <div className="app-container">
             <Header />
-            <Router basepath="/">
+            <Router basepath="/" >
                 <Landing path="/" />
                 {/* <Mission path="/mission" /> */}
                 {/* <Services path="/services" /> */}
