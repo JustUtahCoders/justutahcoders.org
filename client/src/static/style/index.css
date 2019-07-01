@@ -6,11 +6,14 @@
 }
 
 body {
-    font-size: 10pt;
-    color: #ADADAD;
     position: absolute;
     left: 0;
     right: 0;
+
+    font-size: 10pt;
+
+    background-color: #1E1E1E;
+    color: #ADADAD;
 }
 
 a {
@@ -40,6 +43,10 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.page-container {
+    margin: 15vh 0 10vh 0;
 }
 
 /* MOBILE */
