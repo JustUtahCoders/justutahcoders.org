@@ -40,7 +40,7 @@ function NavDesktop() {
 
 function NavMobile(props) {
     return (
-        <nav className="nav-mobile">
+        <nav className={"nav-mobile"}>
             <button 
                 className="hamburger"
                 onClick={props.handleOpenToggle}
@@ -53,9 +53,9 @@ function NavMobile(props) {
     )
 }
 
-function NavMobileDropdown() {
+function NavMobileDropdown(props) {
     return (
-        <div className="drop-menu">
+        <div className={props.isOpen ? "drop-menu" : "drop-menu is-closed"}>
             {mapNavData}
         </div>
     )

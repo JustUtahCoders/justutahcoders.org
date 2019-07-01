@@ -3,7 +3,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 2;
+    z-index: 3;
 
     display:flex;
     align-items: center;
@@ -16,6 +16,8 @@ header {
     background-color: #333333;
     border-bottom: #1E1E1E 1px solid;
     color: white;
+    box-shadow: inset rgba(0, 0, 0, 0.2) 1px 1px 5px,
+                rgba(0, 0, 0, 0.2) 0 1px 5px;
 }
 
 header > a > .header-logo {
@@ -27,7 +29,7 @@ header > a > .header-logo {
     background-image: url('../images/color-logo.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    filter: drop-shadow(rgba(0, 0, 0, 0.75) 2px 2px 3px);
+    filter: drop-shadow(rgba(0, 0, 0, 0.75) 1px 1px 1px);
 }
 
 /* NAVBAR */
@@ -48,11 +50,18 @@ nav > a {
 
 .nav-desktop {
     visibility: visible;
+
+    position: absolute;
+    right: 1.25rem;
 }
 
 .nav-mobile {
     visibility: hidden;
     flex-direction: column;
+}
+
+.drop-menu {
+    visibility: hidden;
 }
 
 /* MOBILE */
@@ -97,7 +106,39 @@ nav > a {
         transform: rotate(-45deg);
     }
 
+    .drop-menu {
+        visibility: visible;
+
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 12vh;
+        z-index: 1;
+        
+        height: 88vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #1A1A1A;
+        filter: drop-shadow(rgba(0, 0, 0, 0.75) 1px 1px 1px);
+
+        transition: all 1s;
+        
+    }
+
+    .drop-menu.is-closed {
+        top: -100%;
+    }
+
+    .drop-menu > a {
+        margin: 4vh 0 4vh 0;
+
+        font-size: 2rem;
+        text-transform: capitalize;
+
+        color: #ADADAD;
+    }
 }
-
-
-
