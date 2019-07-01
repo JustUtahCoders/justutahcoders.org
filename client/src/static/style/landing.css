@@ -1,0 +1,7 @@
+.landing-section > div {
+    height: 50vh;
+    width: calc(70vh);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
