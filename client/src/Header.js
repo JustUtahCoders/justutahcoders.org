@@ -40,10 +40,10 @@ function NavDesktop() {
 
 function NavMobile(props) {
     return (
-        <nav className={"nav-mobile"}>
+        <nav className={"nav-mobile"} >
             <button 
                 className="hamburger"
-                onClick={props.handleOpenToggle}
+                onClick={props.handleMenuToggle}
             >
                 <div className={!props.isOpen ? "hamburger-bar first-bar"  : "hamburger-bar first-bar  is-active"}></div>
                 <div className={!props.isOpen ? "hamburger-bar second-bar" : "hamburger-bar second-bar is-active"}></div>
@@ -55,7 +55,10 @@ function NavMobile(props) {
 
 function NavMobileDropdown(props) {
     return (
-        <div className={props.isOpen ? "drop-menu" : "drop-menu is-closed"}>
+        <div 
+            className={!props.isOpen ? "drop-menu" : "drop-menu is-closed"}
+            onClick={props.handleMenuToggle}
+        >
             {mapNavData}
         </div>
     )
@@ -64,18 +67,22 @@ function NavMobileDropdown(props) {
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
 
-    const handleOpenToggle = () => {
+    const handleMenuToggle = () => {
         setIsOpen(!isOpen)
+    }
+
+    const handdleCloseMenu = () => {
+        setIsOpen(true)
     }
 
     return (
         <header>
             <Link to="/">
-                <div className="header-logo"></div>
+                <div className="header-logo" onClick={handdleCloseMenu}></div>
             </Link>
             <NavDesktop />
-            <NavMobile isOpen={isOpen} handleOpenToggle={handleOpenToggle} />
-            <NavMobileDropdown isOpen={isOpen} />
+            <NavMobile isOpen={isOpen} handleMenuToggle={handleMenuToggle} />
+            <NavMobileDropdown isOpen={isOpen} handleMenuToggle={handleMenuToggle} />
         </header>
     )
 }

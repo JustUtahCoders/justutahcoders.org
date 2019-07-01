@@ -53,3 +53,10 @@ footer {
     background-color: #333333;
     border-top: #1E1E1E 1px solid;
 }
+
+/* MOBILE */
+@media screen and (max-width: 760px) {
+    .app-container {
+        background-size: 80%, cover;
+    }
+}
