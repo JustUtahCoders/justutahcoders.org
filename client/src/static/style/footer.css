@@ -1,11 +1,10 @@
 footer {
     position: absolute;
-    /* bottom: 0; */
     left: 0;
     right: 0;
     z-index: 2;
 
-    padding: 1vh calc(1.25vh) 3vh calc(1.25vh);
+    padding: 1.5vh calc(1.25vh) 3vh calc(1.25vh);
 
     background-color: #333333;
     border-top: #1E1E1E 1px solid;
@@ -14,10 +13,15 @@ footer {
 .sections-container {
     display: flex;
     align-items: flex-start;
-    justify-content: space-evenly;
-    padding: vh calc(2vh);
+    justify-content: space-around;
+    padding: 7vh calc(1vh);
 
     background-color: #0D0D0D;
+}
+
+.sections-container > img {
+    height: 35vh;
+    align-self: center;
 }
 
 .sections-container > section {
@@ -42,7 +46,6 @@ footer {
 .copywrite-container {
     margin-top: 3vh;
     text-align: center;
-
 }
 
 /* MOBILE */

@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from '@reach/router'
 
 import './static/style/footer.css'
+import leftFooterImg from './static/images/left.svg'
+import rightFooterImg from './static/images/right.svg'
 
 export default function Footer() {
     const footerData = [
@@ -82,7 +84,11 @@ export default function Footer() {
 
     return (
         <footer>
-            <div className="sections-container">{mapFooterData}</div>
+            <div className="sections-container">
+                <img src={leftFooterImg} alt="web developer working" />
+                {mapFooterData}
+                <img src={rightFooterImg} alt="web developer working" />
+            </div>
             <div className="copywrite-container">
                 <p>Ⓒ JustUtahCoders 2019</p>
             </div>
