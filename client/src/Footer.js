@@ -85,9 +85,9 @@ export default function Footer() {
     return (
         <footer>
             <div className="sections-container">
-                <img src={leftFooterImg} alt="web developer working" />
+                <img src={leftFooterImg} alt="web developer working" className="left" />
                 {mapFooterData}
-                <img src={rightFooterImg} alt="web developer working" />
+                <img src={rightFooterImg} alt="web developer working" className="right" />
             </div>
             <div className="copywrite-container">
                 <p>Ⓒ JustUtahCoders 2019</p>

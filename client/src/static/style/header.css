@@ -4,15 +4,11 @@ header {
     left: 0;
     right: 0;
     z-index: 3;
-
     display:flex;
     align-items: center;
     justify-content: space-between;
     padding: 1vh 0 1vh calc(2vh);
-
     height: 10vh;
-    max-width: 100vw;
-
     background-color: #333333;
     border-bottom: #1E1E1E 1px solid;
     color: white;
@@ -22,10 +18,8 @@ header {
 
 header > a > .header-logo {
     margin: 1vh 0 1vh 0;
-
     height: 8vh;
     width: calc(11.75vh);
-
     background-image: url('../images/color-logo.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,16 +35,13 @@ nav {
 
 nav > a {
     margin: 0 0 0 2rem;
-
     font-size: 1.05rem;
     text-transform: capitalize;
-
     color: #ADADAD;
 }
 
 .nav-desktop {
     visibility: visible;
-
     position: absolute;
     right: 1.25rem;
 }
@@ -73,7 +64,7 @@ nav > a {
     .nav-mobile {
         visibility: visible;
         position: absolute;
-        right: 5vw;
+        right: 30vw;
     }
 
     .hamburger {
@@ -108,25 +99,19 @@ nav > a {
 
     .drop-menu {
         visibility: visible;
-
         position: fixed;
         left: 0;
         right: 0;
         top: 12vh;
         z-index: 1;
-        
         height: 88vh;
-
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
         background-color: #1A1A1A;
         filter: drop-shadow(rgba(0, 0, 0, 0.75) 1px 1px 1px);
-
         transition: all 1s;
-        
     }
 
     .drop-menu.is-closed {
@@ -135,10 +120,8 @@ nav > a {
 
     .drop-menu > a {
         margin: 4vh 0 4vh 0;
-
         font-size: 2rem;
         text-transform: capitalize;
-
         background-color: transparent;
         border: transparent;
         color: #ADADAD;
