@@ -72,3 +72,7 @@
                 rgba(0, 0, 0, 0.4) 5px 5px 10px,
                 inset rgba(255, 255, 255, 0.25) 1px 1px 1px;
 }
+
+.organize > h2 {
+    margin-left: 1.5vw;
+}
