@@ -1,0 +1,74 @@
+.landing-container {
+    padding: 0;
+}
+
+.landing-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: fill;
+}
+
+.landing-section > h2 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.img-section > h2 {
+    text-align: center;
+    width: 37rem;
+}
+
+.img-container {
+    padding: 10vh 0 20vh 0;
+    height: 26rem;
+    width: 35rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.img-container > p {
+    font-size: 1.35rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0);
+    text-shadow: rgba(0, 0, 0, 0) 1px 1px 1px;
+    transition: color 1s;
+}
+
+.img-container > p:hover {
+    font-size: 1.35rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+    color: white;
+}
+
+.summary-section {
+    padding: 15vh 5vw 15vh 5vw;
+    background-color: #333333;
+}
+
+.summary-section > h2 {
+    margin-bottom: 3vh;
+}
+
+.summary-section > p {
+    font-size: 1.25rem;
+    text-align: left;
+    width: 100%;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.summary-section > a > button {
+    margin-top: 4vh;
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 1.25rem;
+    background-color: #0b5775;
+    color: white;
+    border: transparent;
+    border-radius: 15px;
+    box-shadow: #042a3d 2px 3px 1px,
+                rgba(0, 0, 0, 0.4) 5px 5px 10px,
+                inset rgba(255, 255, 255, 0.25) 1px 1px 1px;
+}
