@@ -42,10 +42,10 @@ nav {
 nav > a {
     margin: 0 0 0 2rem;
 
-    font-size: 1rem;
+    font-size: 1.05rem;
     text-transform: capitalize;
 
-    color: white;
+    color: #ADADAD;
 }
 
 .nav-desktop {
@@ -139,6 +139,8 @@ nav > a {
         font-size: 2rem;
         text-transform: capitalize;
 
+        background-color: transparent;
+        border: transparent;
         color: #ADADAD;
     }
 }
