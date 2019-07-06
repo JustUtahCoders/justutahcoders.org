@@ -8,6 +8,9 @@ const navData = ([
         label: "our mission",
         path: "/mission",
     },{
+        label: "our services",
+        path: "/services",
+    },{
         label: "our work",
         path: "/projects",
     },{
