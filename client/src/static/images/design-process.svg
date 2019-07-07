@@ -9,7 +9,7 @@
 	.st2{fill:#C586B6;}
 	.st3{fill:#333333;}
 	.st4{fill:#CE9178;}
-	.st5{fill:#9900AA;}
+	.st5{fill:#5C056B;}
 	.st6{fill:#9F616A;}
 	.st7{fill:#0B5775;}
 	.st8{fill:#074768;}
@@ -50,7 +50,7 @@
 <circle class="st5" cx="135.4" cy="272.5" r="27"/>
 <ellipse class="st5" cx="158.1" cy="262.4" rx="23.9" ry="18.7"/>
 <ellipse class="st10" cx="164.5" cy="281.5" rx="4.5" ry="8"/>
-<rect x="385.8" y="36.9" transform="matrix(0.2876 -0.9578 0.9578 0.2876 136.5541 791.4182)" class="st3" width="429" height="534"/>
+<rect x="385.8" y="36.8" transform="matrix(0.2876 -0.9578 0.9578 0.2876 136.6284 791.3856)" class="st3" width="429" height="534"/>
 <line class="st11" x1="611.2" y1="141.9" x2="732.3" y2="190.9"/>
 <polygon class="st12" points="614.2,152 616.1,151.1 611.9,142.2 621.1,138.7 620.4,136.8 609.2,141.1 "/>
 <polygon class="st12" points="723.1,196 722.4,194.1 731.6,190.6 727.4,181.6 729.2,180.8 734.3,191.7 "/>
