@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@reach/router": "^1.2.1",
-    "react-transition-group": "^4.2.0"
-  }
-}
