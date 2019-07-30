@@ -32,7 +32,7 @@ const Blog = () => {
     }, [postFiles])
 
     const mapPosts = postList.map((post, i) => {
-        return <ReactMarkdown source={post.markdown} key={i} />
+        return <ReactMarkdown className="blog-post" source={post.markdown} key={i} />
     })
 
     return (

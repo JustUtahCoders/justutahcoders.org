@@ -1,5 +1,8 @@
 # Hello World
 
+#### by Meghan Bomberger
+#### 07/30/2019
+
 Welcome to JustUtahCoders! We are a non-profit dedicated to providing affordable and pro-bono software development to other local non-profits, increasing local tech education, and participating in causes such as justice reform in Utah. Yes, that's quite the list. But we are here to prove you can do a lot with a little as long as you work with forethought and conscious.
 
 Let's breakdown how we're going to be doing all this.
