@@ -2,17 +2,14 @@ import React, { useState, useEffect } from "react"
 import ReactMarkdown from 'react-markdown'
 
 import "../static/style/blog.css"
-import TestPost from "../pages/blogposts/test.md"
-import TestPost2 from "../pages/blogposts/test2.md"
-import TestPost3 from "../pages/blogposts/test3.md"
+
+import HelloWorld07302019 from "./blogposts/HelloWorld07302019.md"
 
 const Blog = () => {
     const [postList, setPostList] = useState([])
 
     const postFiles = [
-        TestPost,
-        TestPost2,
-        TestPost3
+        HelloWorld07302019,
     ]
 
     useEffect(() => {
