@@ -3,6 +3,7 @@
 * {
     font-family: 'Inconsolata', monospace;
     margin: 0;
+    padding: 0;
 }
 
 body {
@@ -28,9 +29,9 @@ button:hover {
 
 .app-container {
     width: 100vw;
-    max-width: 100vw;
-    background: url('../images/seamless-repeat-logo.svg'), linear-gradient(#1E1E1E, #1E1E1E);
-    background-size: 45%, cover;
+    max-width: 100%;
+    background: url('../images/monotone-logo.svg'), linear-gradient(#1E1E1E, #1E1E1E);
+    background-size: 40%, cover;
     background-position: center, center;
     background-repeat: repeat, no-repeat;
 }

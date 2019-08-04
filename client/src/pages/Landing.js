@@ -18,8 +18,8 @@ export default function Landing(){
     return (
         <main className="page-container landing-container" style={{marginTop: "7vh"}}>
             <section className="landing-section img-section everyone">
-                <h2 style={{margin: "0 -8% 0 0"}}>Every industry needs software developers. Community organizations and non-profits are no exception.</h2>
-                <div className="img-container" style={imgStyle(mobileAppImage, "right")}>
+                <h2 className="everyone-title">Every industry needs software developers. Community organizations and non-profits are no exception.</h2>
+                <div className="img-container everyone-image" style={imgStyle(mobileAppImage, "right")}>
                     <p style={{padding: "39% 43% 0 36%"}}>What can we make for you?</p>
                 </div>
             </section>
@@ -33,7 +33,7 @@ export default function Landing(){
             </section>
 
             <section className="landing-section img-section organize" style={{margin: "4vh 0 4vh 0"}}>
-                <div className="img-container" style={imgStyle(organizationImage, "left")}>
+                <div className="img-container organize-image" style={imgStyle(organizationImage, "left")}>
                     <p style={{padding: "48% 37% 0 20%"}}>We can build the perfect fit!</p>
                 </div>
                 <h2>One size fits all solutions don't always fit. Don't slow down your cause by using limited data solutions.</h2>
