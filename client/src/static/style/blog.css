@@ -1,0 +1,42 @@
+.blog-post {
+    margin: 1rem 5rem 2rem 5rem;
+    padding: 0 0 2rem 0;
+    border-bottom: 1px solid white;
+}
+
+.blog-post:last-child {
+    border-bottom: none;
+}
+
+.blog-post > h1 {
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.blog-post > h4 {
+    font-size: .85rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.blog-post > h4:nth-child(3n){
+    margin-bottom: 1rem;
+}
+
+.blog-post > h2 {
+    margin-top: 2rem;
+    color: white;
+}
+
+.blog-post > p {
+    font-size: 1.1rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.blog-post > p > a {
+    color: white;
+    text-decoration: none;
+}
