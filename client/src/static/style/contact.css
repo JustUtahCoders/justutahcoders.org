@@ -1,0 +1,21 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container > h1 {
+    font-size: 1.75rem;
+    margin: 0 0 1rem 0;
+}
+
+.contact-container > p {
+    font-size: 1.05rem;
+}
+
+.contact-container > p > a {
+    outline: none;
+    color: white;
+    cursor: pointer;
+}

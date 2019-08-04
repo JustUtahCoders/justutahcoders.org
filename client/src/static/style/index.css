@@ -28,13 +28,12 @@ button:hover {
 }
 
 .app-container {
-    min-height: 100vh;
     width: 100vw;
     max-width: 100%;
     background: url('../images/monotone-logo.svg'), linear-gradient(#1E1E1E, #1E1E1E);
     background-size: 40%, cover;
     background-position: center, center;
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: repeat, no-repeat;
 }
 
 main {
@@ -46,6 +45,7 @@ main {
 
 .page-container {
     margin: 15vh 0 10vh 0;
+    min-height: 13vh;
 }
 
 /* MOBILE */
