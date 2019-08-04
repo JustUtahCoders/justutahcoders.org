@@ -29,10 +29,10 @@ button:hover {
 .app-container {
     width: 100vw;
     max-width: 100vw;
-    background: url('../images/monotone-logo.svg'), linear-gradient(#1E1E1E, #1E1E1E);
-    background-size: 40%, cover;
+    background: url('../images/seamless-repeat-logo.svg'), linear-gradient(#1E1E1E, #1E1E1E);
+    background-size: 45%, cover;
     background-position: center, center;
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: repeat, no-repeat;
 }
 
 main {
