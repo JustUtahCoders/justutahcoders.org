@@ -6,12 +6,12 @@
 }
 
 .contact-container > h1 {
-    font-size: 1.75rem;
-    margin: 0 0 1rem 0;
+    font-size: 3rem;
+    margin: 2rem 0 1rem 0;
 }
 
 .contact-container > p {
-    font-size: 1.05rem;
+    font-size: 1.75rem;
 }
 
 .contact-container > p > a {

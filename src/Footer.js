@@ -99,7 +99,7 @@ export default function Footer() {
             <div className="sections-container">
                 <img src={leftFooterImg} alt="web developer working" className="left" />
                 {/* {mapFooterData} */}
-                <button className="splash-button">Learn More</button>
+                <button className="splash-button">Want To Learn More?</button>
                 <img src={rightFooterImg} alt="web developer working" className="right" />
             </div>
             <div className="copywrite-container">
