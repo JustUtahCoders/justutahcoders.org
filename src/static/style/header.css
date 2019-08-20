@@ -26,6 +26,20 @@ header > a > .header-logo {
     filter: drop-shadow(rgba(0, 0, 0, 0.75) 1px 1px 1px);
 }
 
+.nav-desktop > a > .splash-button {
+    padding: .5rem 0rem .5rem 0rem;
+    margin: 0 0 0 0;
+    font-size: 1rem;
+    width: 10vw;
+    background-color: #0b5775;
+    color: white;
+    border: transparent;
+    border-radius: 15px;
+    box-shadow: #042a3d 2px 3px 1px,
+                rgba(0, 0, 0, 0.4) 5px 5px 10px,
+                inset rgba(255, 255, 255, 0.25) 1px 1px 1px;
+}
+
 /* NAVBAR */
 nav {
     display: flex;
@@ -126,4 +140,5 @@ nav > a {
         border: transparent;
         color: #ADADAD;
     }
+    
 }
