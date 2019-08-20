@@ -15,7 +15,7 @@ export default function App() {
             <Header />
             <Router basepath="/" >
                 <Landing path="/" />
-                <Blog path="/blog" />
+                {/* <Blog path="/blog" /> */}
                 <ContactUs path="/contact" />
                 {/* <AboutUs path="/about" /> */}
                 {/* <Accountablity path="/accountability" /> */}

@@ -16,9 +16,6 @@ const navData = ([
     },{
         label: "about us",
         path: "/about",
-    },{
-        label: "contact",
-        path: "/contact",
     }
 ])
 
@@ -37,6 +34,11 @@ function NavDesktop() {
     return (
         <nav className="nav-desktop">
             {mapNavData}
+            <Link to="/contact">
+                <button className="splash-button">
+                    Contact Us
+                </button>
+            </Link>
         </nav>
     )
 }

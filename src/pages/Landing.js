@@ -26,10 +26,11 @@ export default function Landing(){
 
             <section className="landing-section summary-section mission-summary">
                 <h2>Software and Web Design Experts with a Purpose</h2>
-                <p>Our mission is to build software for Utah's non-profits, government agencies, and general public that further a wide variety of social causes. Whether that be providing better tools and resources or helping to mentor the next wave of developers, we've got it covered.</p>
-                <Link to="/mission">
+                <p>Our mission is to build software for Utah's non-profits, government agencies, and general public that further a wide variety of social causes.</p>
+                <p>Whether that be providing better tools and resources or helping to mentor the next wave of developers, we've got it covered.</p>
+                {/* <Link to="/mission">
                     <button>Learn more about our mission</button>
-                </Link>
+                </Link> */}
             </section>
 
             <section className="landing-section img-section organize" style={{margin: "4vh 0 4vh 0"}}>
@@ -41,12 +42,12 @@ export default function Landing(){
 
             <section className="landing-section summary-section services-summary">
                 <h2>Why Some Big Name Data Solutions Aren't a Good Fit</h2>
-                <p>Every business and organization is unique, and while big pre-made data solution services have a lot of features you'll find yourself paying for a lot of features you just don't need and still missing key features you do need.</p>
-                <p>And while sometimes those same companies will offer a discounted rate or free services for your cause, there is often a much larger price tag attached, your client's data. That's just not right.</p>
+                <p>Every business and organization is unique. While big name pre-made data and program solution companies seem to offer enough features to fit everyone the realitity is you'll be paying for many things your organization doesn't need and missing a lot that you do need.</p>
+                <p>And while sometimes those same companies will offer a discounted rate or free services for your cause, there is often a much larger price tag attached, your client's data! That's just not right.</p>
                 <p>We believe that businesses and organizations designed to help the community should have access to affordable software that meets all of their needs, and doesn't ask for client data in return.</p>
-                <Link to="/services">
+                {/* <Link to="/services">
                     <button>Learn more about our services</button>
-                </Link>
+                </Link> */}
             </section>
 
             <section className="landing-section img-section design" style={{margin: "8vh 0 9vh 0"}}>
@@ -57,13 +58,13 @@ export default function Landing(){
             </section>
 
             <section className="landing-section summary-section img-section process">
-                <h2>We listen to the problem first, fully</h2>
+                <h2>We listen to the problem first</h2>
                 <p>It's too important to stop at the what of a problem and just dive in. We listen and work with you to find out the why.</p>
-                <p>We understand that your time, funding, and workforce are all limited resources, and vow not to waste them.</p>
-                <p>To accomplish this we make sure that what we make for you reduces processing time, intuitively automates repeat processes for you, and can be used by any volunteer with minimal training going forward.</p>
-                <Link to="/portfolio">
+                <p>We understand that your time, funding, and workforce are all limited resources.</p>
+                <p>To accomplish this we make sure that what we make for you is going to provide a true benefit to your cause. We work to create more organization, better access to the community you are aiming to help, and ways to get more out of your resources.</p>
+                {/* <Link to="/portfolio">
                     <button>Learn more about our process and projects</button>
-                </Link>
+                </Link> */}
             </section>
 
             <section className="landing-section img-section build" style={{margin: "4vh 0 4vh 0"}}>
@@ -75,12 +76,12 @@ export default function Landing(){
 
             <section className="landing-section summary-section img-section community">
                 <h2>Our Community is Here to Help</h2>
-                <p>Utah is fast become a major tech hub. That means that there are more skilled developers, designers, and software engineers available to your oraganization than ever</p>
+                <p>Utah is fast becoming a major tech hub. That means that there are more skilled developers, designers, and software engineers available to your oraganization than ever</p>
                 <p>With that comes the social awareness and drive to help that the tech community is know for.</p>
                 <p>We help connect and guide developers who want to grow Utah's community into a better place for all.</p>
-                <Link to="/about">
+                {/* <Link to="/about">
                     <button>Learn more about us</button>
-                </Link>
+                </Link> */}
             </section>
         </main>
     )

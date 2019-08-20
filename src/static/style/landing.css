@@ -1,5 +1,6 @@
 .landing-container {
     padding: 0;
+    color: rgb(214, 214, 214);
 }
 
 .landing-section {
@@ -51,10 +52,12 @@
 
 .summary-section > h2 {
     margin-bottom: 3vh;
+    width: 50vw;
+    text-align: center;
 }
 
 .summary-section > p {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-align: left;
     width: 100%;
     margin: 1.5rem 0 1.5rem 0;

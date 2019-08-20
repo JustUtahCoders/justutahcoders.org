@@ -14,52 +14,64 @@ export default function Footer() {
                 {
                     label: "our services",
                     path: "/services"
-                },{
+                },
+                {
                     label: "our mission",
                     path: "/mission"
-                },{
+                },
+                {
                     label: "our sponsers",
                     path: "/sponsers"
-                },{
+                },
+                {
                     label: "our work",
                     path: "/portfolio"
-                },{
+                },
+                {
                     label: "meet our team",
                     path: "/about"
                 }
             ]
-        },{
+        },
+        {
             name: "participate:",
             class: "join",
             subsections: [
                 {
                     label: "become a sponser",
                     path: "/sponsers"
-                },{
+                },
+                {
                     label: "events",
                     path: "/events"
-                },{
+                },
+                {
                     label: "become a volunteer",
                     path: "/volunteer"
-                },{
+                },
+                {
                     label: "join our team",
                     path: "/careers"
                 }
             ]
-        },{
+        },
+        {
             name: "learn more:",
             class: "more",
             subsections: [
                 {
                     label: "contact us",
                     path: "/contact"
-                },{
+                },
+                {
                     label: "accountability",
                     path: "/accountability"
-                },{
+                },
+                {
                     label: "blog",
                     path: "/blog"
-                },{
+                },
+                {
                     label: "meeting notes",
                     path: "/meeting_notes"
                 }
@@ -86,7 +98,8 @@ export default function Footer() {
         <footer>
             <div className="sections-container">
                 <img src={leftFooterImg} alt="web developer working" className="left" />
-                {mapFooterData}
+                {/* {mapFooterData} */}
+                <button className="splash-button">Learn More</button>
                 <img src={rightFooterImg} alt="web developer working" className="right" />
             </div>
             <div className="copywrite-container">
